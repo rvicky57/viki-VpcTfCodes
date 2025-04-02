@@ -8,7 +8,7 @@ terraform {
  # Adding Backend as S3 for Remote State Storage
   backend "s3" {
     bucket = "viki-jenkins-bucket"
-    key    = "vgs/terraform.tfstate"
+    key    = "viki/terraform.tfstate"
     region = "ap-south-1"   
   }
 }
